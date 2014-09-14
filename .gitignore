@@ -2,4 +2,8 @@
 node_modules
 .tmp
 .sass-cache
+# a trailing /** means match everything inside relative to the .gitignore file
+# so ignore everything thing inside builds which is inside of the images
+# in other words ignore all the changes to images
+
 builds/**/images/*
